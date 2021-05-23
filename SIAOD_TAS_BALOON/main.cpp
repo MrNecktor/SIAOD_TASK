@@ -16,7 +16,7 @@ int main()
 
     srand(time(nullptr));
 
-    cout << "Введите кол-во шаров" << endl;
+    cout << "Введите количествово шаров" << endl;
     cin >> amount;
 
     for (int i = 0; i < amount; i++)
@@ -46,7 +46,7 @@ int main()
             temp++;
         }
     }
-    cout << "Минимальное количество стрел: " << count;
+    cout << "Минимально стрел: " << count;
 
     return 0;
 }
